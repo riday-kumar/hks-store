@@ -6,9 +6,11 @@ import "./Root.css";
 
 const Root = () => {
   return (
-    <div className="site-font">
+    <div className="site-font flex flex-col min-h-screen">
       <Navbar></Navbar>
-      <Outlet></Outlet>
+      <div className="bg-[#f5f5f5] flex-1">
+        <Outlet></Outlet>
+      </div>
       <Footer></Footer>
     </div>
   );
