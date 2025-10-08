@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/FkJ6SGJz/whatsapp.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 1,
+    "description": "WhatsApp Messenger is a free messaging app that allows you to send text messages, voice messages, images, documents, and make voice and video calls over the internet. It supports group chats, end-to-end encryption, status updates, and cross-platform functionality. You can also share your live location and make secure payments in supported countries.",
+    "size": 35,
+    "reviews": "12M",
+    "ratingAvg": 4.4,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "5 star", "count": 9000000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "1 star", "count": 850000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/B2YtjWGT/instagram.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "Instagram is a visual social media platform where users can share photos, short videos, stories, reels, and go live. It offers creative tools like filters, stickers, AR effects, and editing. You can follow friends, celebrities, brands, and explore content tailored by interests. The Explore tab helps you discover new posts, and Instagram Shop allows in-app shopping.",
+    "size": 55,
+    "reviews": "8.5M",
+    "ratingAvg": 4.5,
+    "downloads": "3B",
+    "ratings": [
+      { "name": "5 star", "count": 4850000 },
+      { "name": "4 star", "count": 2300000 },
+      { "name": "3 star", "count": 750000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "1 star", "count": 600000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WdY4Dn7/youTube.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 3,
+    "description": "YouTube is a video streaming and sharing platform where you can watch, upload, like, comment on, and subscribe to videos. It supports channels, playlists, live streaming, Shorts (short videos), and premium features like ad-free viewing, background play, and offline downloads. Creators can monetize and build communities.",
+    "size": 80,
+    "reviews": "14M",
+    "ratingAvg": 4.3,
+    "downloads": "6B",
+    "ratings": [
+      { "name": "5 star", "count": 8500000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "1 star", "count": 950000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WvTVMPLJ/map.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 4,
+    "description": "Google Maps offers detailed maps, satellite imagery, street view, turn-by-turn navigation, real-time traffic updates, public transit information, and route planning for driving, walking, biking, and more. You can explore places, see reviews, photos, hours, and book services within the app. Offline maps are supported too.",
+    "size": 60,
+    "reviews": "9M",
+    "ratingAvg": 4.4,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "5 star", "count": 5300000 },
+      { "name": "4 star", "count": 2600000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "2 star", "count": 230000 },
+      { "name": "1 star", "count": 500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/CKCsTM3w/gmailgo.png",
+    "title": "Gmail Go",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "Gmail Go is a free email service with a clean interface, powerful search, spam filtering, and tight integration with other Google services. It supports multiple accounts, attachments, conversation view, labels, scheduling, smart replies, and offline mode. Security features include two-factor authentication and suspicious activity alerts.",
+    "size": 25,
+    "reviews": "5M",
+    "ratingAvg": 4.5,
+    "downloads": "4B",
+    "ratings": [
+      { "name": "5 star", "count": 2950000 },
+      { "name": "4 star", "count": 1700000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "1 star", "count": 250000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MDqBv6F4/snapchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 6,
+    "description": "Snapchat is a multimedia messaging app where Snaps (photos/videos) disappear after being viewed. It includes features like Stories, chat, augmented reality lenses, bitmoji, Spotlight, and Snap Map. You can also subscribe to publishers’ content and discover curated stories.",
+    "size": 45,
+    "reviews": "4M",
+    "ratingAvg": 4.1,
+    "downloads": "1.5B",
+    "ratings": [
+      { "name": "5 star", "count": 1980000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "1 star", "count": 300000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YFVvZwGS/tikotiko.png",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 7,
+    "description": "TikTok is a short-form video platform where users create and watch videos up to several minutes long. It offers editing tools, effects, music, duets, stitches, and discovery via For You page. The algorithm tailors content to your interests. You can follow creators, comment, share, and go live.",
+    "size": 70,
+    "reviews": "11M",
+    "ratingAvg": 4.6,
+    "downloads": "3.5B",
+    "ratings": [
+      { "name": "5 star", "count": 6500000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "1 star", "count": 700000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0gySYMz/spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 8,
+    "description": "Spotify is a music streaming service that gives you access to millions of tracks, podcasts, and playlists. You can browse by mood, genre, or charts, follow artists, and create your own playlists. It supports offline downloads (Premium), high-quality audio, and personalized suggestions via Discover Weekly and Release Radar.",
+    "size": 60,
+    "reviews": "7.5M",
+    "ratingAvg": 4.7,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "5 star", "count": 5100000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "1 star", "count": 200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nq2HdTzW/netflix.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 9,
+    "description": "Netflix lets you stream movies, TV series, documentaries, and exclusive content on demand. You can browse by genre, get recommendations, download titles to watch offline, and switch between multiple user profiles. The app supports casting, multiple device sync, and adaptive streaming quality.",
+    "size": 45,
+    "reviews": "6.2M",
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "5 star", "count": 4200000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "1 star", "count": 180000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tpJM5Sy2/telo.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 10,
+    "description": "Telegram is a cloud-based messaging app known for speed, privacy, and support for large group chats. You can send multimedia, voice and video calls, secret chats, channels, bots, and schedule messages. It supports file sharing up to large sizes and synced across devices.",
+    "size": 35,
+    "reviews": "4.5M",
+    "ratingAvg": 4.5,
+    "downloads": "800M",
+    "ratings": [
+      { "name": "5 star", "count": 2920000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "1 star", "count": 120000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HD3kh7g7/zoom.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 11,
+    "description": "Zoom is a video conferencing app that supports one-on-one and group meetings, webinars, screen sharing, chat, breakout rooms, whiteboards, virtual backgrounds, and recordings. It works across devices and integrates with calendars. You can join meetings via link without logging in.",
+    "size": 50,
+    "reviews": "3M",
+    "ratingAvg": 4.2,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "5 star", "count": 2400000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "1 star", "count": 100000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/S41Cm47f/microsoft-teams.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 12,
+    "description": "Microsoft Teams is a collaboration platform integrating chat, video meetings, file sharing, and Office apps. Teams offers channels, threaded conversations, live events, whiteboard, polls, and integration with SharePoint and OneDrive. It’s useful for business, education, and remote work.",
+    "size": 65,
+    "reviews": "2.2M",
+    "ratingAvg": 4.1,
+    "downloads": "400M",
+    "ratings": [
+      { "name": "5 star", "count": 1460000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "1 star", "count": 90000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ZzC795R6/outlook.png",
+    "title": "Microsoft Outlook",
+    "companyName": "Microsoft Corporation",
+    "id": 13,
+    "description": "Outlook is an email and calendar app that lets you manage multiple accounts (Exchange, Office 365, Gmail, etc.), view your calendar, schedule events, and attach files from cloud storage. It also includes a focused inbox, customizable swipe gestures, and built-in calendar reminders.",
+    "size": 40,
+    "reviews": "1.8M",
+    "ratingAvg": 4.3,
+    "downloads": "300M",
+    "ratings": [
+      { "name": "5 star", "count": 1360000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "1 star", "count": 80000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/twtkQ5hq/lightroom.png",
+    "title": "Adobe Lightroom",
+    "companyName": "Adobe",
+    "id": 14,
+    "description": "Adobe Lightroom lets you edit photos with professional tools and presets. You can adjust exposure, contrast, tone curves, color grading, apply selective edits, heal/clone, batch edit, and sync edits across devices. There is also a premium version with RAW support and cloud storage.",
+    "size": 55,
+    "reviews": "2.1M",
+    "ratingAvg": 4.6,
+    "downloads": "200M",
+    "ratings": [
+      { "name": "5 star", "count": 1300000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "1 star", "count": 60000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wrhtXJrm/snapseed.png",
+    "title": "Snapseed",
+    "companyName": "Google LLC",
+    "id": 15,
+    "description": "Snapseed is a powerful photo editing app developed by Google. It includes tools such as selective adjustment, healing, brush, perspective, curves, HDR, lens blur, and a variety of filters. It’s favored by photographers for its non-destructive editing and intuitive UI.",
+    "size": 35,
+    "reviews": "1.7M",
+    "ratingAvg": 4.7,
+    "downloads": "150M",
+    "ratings": [
+      { "name": "5 star", "count": 1300000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "1 star", "count": 30000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tPJy6D65/spotify-kids.webp",
+    "title": "Spotify Kids",
+    "companyName": "Spotify AB",
+    "id": 16,
+    "description": "Spotify Kids is a child-friendly version of Spotify offering kid-safe music, stories, and playlists. Parents can control content and settings. The interface is bright and simple, with curated content tailored for younger listeners, free of explicit lyrics.",
+    "size": 25,
+    "reviews": "400K",
+    "ratingAvg": 4.5,
+    "downloads": "20M",
+    "ratings": [
+      { "name": "5 star", "count": 335000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "1 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/s9J8khyD/drive.png",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 17,
+    "description": "Google Drive is a cloud storage service where you can store files, photos, documents, and videos. It lets you sync across devices, share files or folders with others, access offline, and integrate with Google Docs, Sheets, and Slides. It supports version history and file previews.",
+    "size": 45,
+    "reviews": "3.2M",
+    "ratingAvg": 4.4,
+    "downloads": "2.5B",
+    "ratings": [
+      { "name": "5 star", "count": 2100000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "1 star", "count": 90000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gMkJhph2/duolingo.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo, Inc.",
+    "id": 18,
+    "description": "Duolingo is a language learning app that offers bite-sized lessons in dozens of languages. It uses gamified exercises like listening, reading, writing, and speaking. The app tracks your progress with streaks, rewards, and challenges. It also supports offline lessons and podcasts in some languages.",
+    "size": 35,
+    "reviews": "2.2M",
+    "ratingAvg": 4.8,
+    "downloads": "600M",
+    "ratings": [
+      { "name": "5 star", "count": 1800000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "1 star", "count": 15000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1GstMzdf/candy-crush.png",
+    "title": "Candy Crush Saga",
+    "companyName": "King",
+    "id": 19,
+    "description": "Candy Crush Saga is a match-3 puzzle game where you swap candies to create matching combinations, clear obstacles, and complete levels. The game features boosters, lives, timed challenges, and hundreds of episodes. It’s free to play with in-app purchases for extra moves or lives.",
+    "size": 100,
+    "reviews": "5M",
+    "ratingAvg": 4.3,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "5 star", "count": 3050000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "1 star", "count": 200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/m5zgbFG6/capcut.png",
+    "title": "CapCut",
+    "companyName": "Bytedance Pte. Ltd.",
+    "id": 20,
+    "description": "CapCut is a video editing app allowing you to create and edit videos with ease. It offers templates, transitions, filters, music, stickers, speed controls, keyframe animation, and text overlays. It supports rendering in various resolutions including 4K. There’s also a community where you can share your creations.",
+    "size": 65,
+    "reviews": "4M",
+    "ratingAvg": 4.7,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "5 star", "count": 2950000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "1 star", "count": 100000 }
+    ]
+  }
+]
