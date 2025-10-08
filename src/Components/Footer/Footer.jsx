@@ -68,6 +68,9 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
+      <div>
+        <p className="text-center text-white">Developed By Hriody Saha</p>
+      </div>
     </div>
   );
 };

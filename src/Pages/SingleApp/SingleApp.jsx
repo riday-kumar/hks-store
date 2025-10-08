@@ -1,7 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import BarChart from "../../Components/Chart/BarChart";
+import { getStoredData, installNewApp } from "../../Uitility/saveToDb";
+
+// const handleInstall = (appId) => {
+//   installNewApp(appId);
+
+//   const getInstalledAppsId = getStoredData();
+//   if (getInstalledAppsId.includes(appId)) {
+//     console.log("asi");
+//   }
+// };
 
 const SingleApp = ({ singleApplication }) => {
+  const [isDisable, setIsDisable] = useState(false);
+  const [initialDisable, setInitialDisable] = useState(false);
+
+  useEffect(() => {
+    const getInstalledAppsId = getStoredData();
+    if (getInstalledAppsId.includes(singleApplication.id)) {
+      setIsDisable(true);
+    }
+  }, [singleApplication]);
+
+  const handleInstall = (appId) => {
+    installNewApp(appId);
+    setInitialDisable(true);
+  };
+
   const {
     image,
     title,
@@ -59,9 +84,18 @@ const SingleApp = ({ singleApplication }) => {
             </div>
           </div>
           <div>
-            <button className="btn btn-md btn-success text-white">
-              Install Now (<span>{size} MB</span>)
-            </button>
+            {isDisable || initialDisable ? (
+              <button className="btn btn-md btn-success text-white">
+                Installed (<span>{size} MB</span>)
+              </button>
+            ) : (
+              <button
+                onClick={() => handleInstall(id)}
+                className="btn btn-md btn-success text-white"
+              >
+                Install Now (<span>{size} MB</span>)
+              </button>
+            )}
           </div>
         </div>
       </div>
