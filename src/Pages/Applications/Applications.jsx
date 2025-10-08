@@ -2,11 +2,13 @@ import React, { useEffect, useState } from "react";
 import useDataFetch from "../../Hooks/useDataFetch";
 import Loading from "../../Components/Loading/Loading";
 import TrendingApp from "../../Components/TendingApp/TrendingApp";
+import { Link } from "react-router";
 
 const Applications = () => {
   const [allApps, loading] = useDataFetch([]);
   const [foundApp, setFoundApp] = useState([]);
   const [searchData, setSearchData] = useState("");
+  const [searchLoading, setSearchLoading] = useState(false);
 
   const typeData = searchData.trim().toLowerCase();
 
@@ -14,10 +16,15 @@ const Applications = () => {
     if (searchData.length === 0) {
       setFoundApp(allApps);
     } else {
-      const makeLower = allApps.filter((oneApp) =>
-        oneApp.title.trim().toLowerCase().includes(typeData)
-      );
-      setFoundApp(makeLower);
+      setSearchLoading(true);
+
+      const timer = setTimeout(() => {
+        const makeLower = allApps.filter((oneApp) =>
+          oneApp.title.trim().toLowerCase().includes(typeData)
+        );
+        setFoundApp(makeLower);
+        setSearchLoading(false);
+      }, 500);
     }
   }, [searchData, allApps]);
 
@@ -68,9 +75,20 @@ const Applications = () => {
         {loading ? (
           <Loading></Loading>
         ) : foundApp.length === 0 ? (
-          <p className="text-5xl font-bold text-red-700 text-center col-span-4">
-            No Apps Found
-          </p>
+          <div className="col-span-4 text-center space-y-5">
+            <p className="text-5xl font-bold text-violet-800 text-center col-span-4">
+              No Apps Found
+            </p>
+            <button
+              to="/all-apps"
+              onClick={() => setSearchData("")}
+              className="btn btn-primary"
+            >
+              Show All Apps
+            </button>
+          </div>
+        ) : searchLoading ? (
+          <Loading></Loading>
         ) : (
           foundApp.map((app) => (
             <TrendingApp key={app.id} app={app}></TrendingApp>

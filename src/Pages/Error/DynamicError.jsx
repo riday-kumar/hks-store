@@ -1,14 +1,15 @@
 import React from "react";
-import Lottie from "lottie-react";
-import errorwithbear from "../../assets/errorwithbear.json";
-import Navbar from "../../Components/Navbar/Navbar";
-import Footer from "../../Components/Footer/Footer";
+import { Link } from "react-router";
 
 const DynamicError = () => {
   return (
     <div>
-      <div className="w-11/12 mx-auto py-10 flex justify-center items-center">
-        <Lottie animationData={errorwithbear}></Lottie>
+      <div className="w-11/12 mx-auto py-10 flex flex-col justify-center items-center">
+        <h1 className="text-4xl font-bold text-red-500">App Not Found</h1>
+        <br />
+        <Link to="/" className="btn btn-info">
+          Back to Home
+        </Link>
       </div>
     </div>
   );

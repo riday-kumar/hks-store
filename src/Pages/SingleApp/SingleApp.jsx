@@ -1,15 +1,7 @@
 import React, { useEffect, useState } from "react";
 import BarChart from "../../Components/Chart/BarChart";
 import { getStoredData, installNewApp } from "../../Uitility/saveToDb";
-
-// const handleInstall = (appId) => {
-//   installNewApp(appId);
-
-//   const getInstalledAppsId = getStoredData();
-//   if (getInstalledAppsId.includes(appId)) {
-//     console.log("asi");
-//   }
-// };
+import { toast } from "react-toastify";
 
 const SingleApp = ({ singleApplication }) => {
   const [isDisable, setIsDisable] = useState(false);
@@ -21,6 +13,9 @@ const SingleApp = ({ singleApplication }) => {
       setIsDisable(true);
     }
   }, [singleApplication]);
+
+  const notify = () =>
+    toast(`Yahoo 🎉 ${singleApplication.title} Installed Successfully`);
 
   const handleInstall = (appId) => {
     installNewApp(appId);
@@ -54,7 +49,7 @@ const SingleApp = ({ singleApplication }) => {
             </p>
           </div>
           <hr className="text-gray-300" />
-          <div className="flex items-center gap-10">
+          <div className="flex max-md:justify-center items-center gap-10">
             <div className=" flex flex-col items-center gap-2">
               <img
                 className="h-10 w-10"
@@ -90,7 +85,10 @@ const SingleApp = ({ singleApplication }) => {
               </button>
             ) : (
               <button
-                onClick={() => handleInstall(id)}
+                onClick={() => {
+                  handleInstall(id);
+                  notify();
+                }}
                 className="btn btn-md btn-success text-white"
               >
                 Install Now (<span>{size} MB</span>)
@@ -105,7 +103,7 @@ const SingleApp = ({ singleApplication }) => {
       </div>
       <hr className="text-gray-300" />
       <div>
-        <p className="text-2xl font-semibold">Description</p>
+        <p className="text-2xl font-semibold pb-3">Description</p>
         <p className="text-[20px] text-justify text-[#627382]">{description}</p>
       </div>
     </div>

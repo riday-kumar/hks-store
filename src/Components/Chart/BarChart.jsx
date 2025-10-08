@@ -15,8 +15,8 @@ import {
 const BarChart = ({ data }) => {
   // console.log(data);
   return (
-    <div className="w-[80%] mx-auto h-[400px]">
-      <ResponsiveContainer width="" height="100%">
+    <div className="w-[95%] md:w-[80%] mx-auto h-[400px]">
+      <ResponsiveContainer width="100%" height="100%">
         <ComposedChart
           layout="vertical"
           width={500}
@@ -35,7 +35,7 @@ const BarChart = ({ data }) => {
           <Tooltip />
           <Legend />
 
-          <Bar dataKey="count" barSize={40} fill="orange" />
+          <Bar dataKey="count" barSize={40} fill="#00d390" />
         </ComposedChart>
       </ResponsiveContainer>
     </div>

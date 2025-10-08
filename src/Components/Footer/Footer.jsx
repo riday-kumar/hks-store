@@ -4,8 +4,8 @@ import { Link } from "react-router";
 const Footer = () => {
   return (
     <div className="bg-black">
-      <footer className="w-11/12 mx-auto footer sm:footer-horizontal text-white p-10">
-        <nav>
+      <footer className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 footer sm:footer-horizontal text-white p-10">
+        <aside>
           <Link to="/" className="flex items-center gap-2">
             <img
               className="h-10 w-10"
@@ -14,7 +14,12 @@ const Footer = () => {
             />
             <p className="text-[20px] font-bold text-[#632EE3]">HKS STORE</p>
           </Link>
-        </nav>
+          <p className="text-white">
+            Discover and download your favorite apps, games, and tools — all in
+            one place. Your trusted source for safe and secure digital
+            downloads.
+          </p>
+        </aside>
         <nav>
           <h6 className="footer-title">Services</h6>
           <a className="link link-hover">Branding</a>
@@ -68,6 +73,7 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
+
       <div>
         <p className="text-center text-white">Developed By Hriody Saha</p>
       </div>

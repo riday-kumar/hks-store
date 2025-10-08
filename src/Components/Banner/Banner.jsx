@@ -14,22 +14,28 @@ const Banner = () => {
           into digital experiences that truly make an impact.
         </p>
         <div className="flex flex-col md:flex-row gap-4 justify-center">
-          <button className="btn btn-lg bg-[#f5f5f5] text-[20px] font-semibold">
+          <a
+            className="btn btn-lg shadow bg-[#f5f5f5] text-[20px] font-semibold"
+            href="https://play.google.com/store/games"
+          >
             <img
               className="h-8 w-8"
               src="https://img.icons8.com/?size=100&id=L1ws9zn2uD01&format=png&color=000000"
               alt=""
             />
             Play Store
-          </button>
-          <button className="btn btn-lg bg-[#f5f5f5] text-[20px] font-semibold">
+          </a>
+          <a
+            className="btn btn-lg shadow bg-[#f5f5f5] text-[20px] font-semibold"
+            href="https://www.apple.com/app-store/"
+          >
             <img
               className="h-8 w-8"
               src="https://img.icons8.com/?size=100&id=fKXXelWgP1B6&format=png&color=000000"
               alt=""
             />
             App Store
-          </button>
+          </a>
         </div>
         <div className="flex justify-center">
           <img src="https://i.ibb.co.com/JR7CFLVN/hero.png" alt="" />

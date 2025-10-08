@@ -1,6 +1,10 @@
 import React from "react";
+import { toast } from "react-toastify";
 
 const InstalledData = ({ handleUninstall, appInfo }) => {
+  const notify = () =>
+    toast(`🗑️ ${appInfo.title} Uninstalled From Your Device`);
+
   const { image, id, title, downloads, ratingAvg, size } = appInfo;
   return (
     <div className="bg-white flex flex-col md:flex-row max-md:gap-4 justify-between items-center p-5 md:p-3 rounded-lg">
@@ -33,7 +37,9 @@ const InstalledData = ({ handleUninstall, appInfo }) => {
       </div>
       <div>
         <button
-          onClick={() => handleUninstall(id)}
+          onClick={() => {
+            handleUninstall(id), notify();
+          }}
           className="btn btn-success text-white"
         >
           Uninstall
